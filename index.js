@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 // import express from 'express
 
@@ -13,7 +14,10 @@ app.get('/twitter', (req, res) => { // get request
 app.get('/login', (req, res) => {
     res.send(`<h1>Welcome to Loging </h1>`)
 })
+app.get('/Facebook', (req, res) => {
+    res.send("<h2>Welcom to Facebook</h2>")
+})
 
-app.listen(port, () => {
+app.listen(process.env.Port, () => {
     console.log(`Example app listening on port ${port}`)
 })

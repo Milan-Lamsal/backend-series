@@ -1,0 +1,17 @@
+{
+  "name": "backend-series",
+  "version": "1.0.0",
+  "description": "a app that is going to be deployed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Milan Lamsal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
